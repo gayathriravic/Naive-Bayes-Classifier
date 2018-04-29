@@ -16,7 +16,7 @@ wordProb[''] = {}
 global totalCount
 
 def loadFile():
-    file = open(sys.argv[1],'r', encoding="utf-8")
+    file = open('train.txt','r', encoding="utf-8")
     return file
 
 def priorProbability(file):  #calculate prior probabilities of the class.

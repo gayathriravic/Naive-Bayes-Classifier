@@ -6,7 +6,7 @@ import json
 import math
 
 def readTestFile():
-    file = open(sys.argv[1],'r',encoding="utf-8")
+    file = open('text.txt','r',encoding="utf-8")
     return file
 def readTrainedFile():
     data = json.load(open('nbmodel.txt'))
