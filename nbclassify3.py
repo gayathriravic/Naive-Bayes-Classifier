@@ -8,6 +8,7 @@ import math
 def readTestFile():
     file = open('test.txt','r',encoding="utf-8")
     return file
+
 def readTrainedFile():
     data = json.load(open('nbmodel.txt'))
     return data
