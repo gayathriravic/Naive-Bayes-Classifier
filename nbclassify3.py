@@ -44,7 +44,7 @@ def calculate(testFile,data) :
         
         for i in range(1, len(line)):   # for every word in the sentence.
                 word = line[i].lower()
-                if word in data["stop"]:
+                if word in data["stop"]:       # ignore stop words
                     continue
                 if word not in data["word"]:   # skip unknown words
                     continue
